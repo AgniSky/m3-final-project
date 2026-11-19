@@ -21,12 +21,12 @@
                 <img  class=nav__logo--img src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"><h1>Treact</h1>
                 </div>
                  <ul class="nav__links">
-                    <li><a href="#" class="nav__link">About</a></li>
-                    <li><a href="#" class="nav__link">Blog</a></li>
-                    <li><a href="#" class="nav__link">Pricing</a></li>
-                    <li><a href="#" class="nav__link">Contact Us</a></li>
-                    <li><a href="#" class="nav__link login">Login</a></li>
-                    <li><a href="#" class="nav__link nav__link--su">Sign Up</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#blog" class="nav__link">Blog</a></li>
+                    <li><a href="#pricing" class="nav__link">Pricing</a></li>
+                    <li><a href="#contact" class="nav__link">Contact Us</a></li>
+                    <li><a href="#login" class="nav__link login">Login</a></li>
+                    <li><a href="#header" class="nav__link nav__link--su">Sign Up</a></li>
                  </ul>
                 <button class="btn__menu" onclick="openMenu()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -48,13 +48,13 @@
                     <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg>
             </button>
-            <div class="modal__links">
-                <a class="modal__link">About</a>
-                <a class="modal__link">Blog</a>
-                <a class="modal__link">Pricing</a>
-                <a class="modal__link">Contact Us</a>
-                <a class="modal__link">Login</a>
-                <a class="modal__link modal__link--primary">Sign Up</a>
+            <div class="modal__links" >
+                <a href="#about" class="modal__link" onclick="closeMenu()">About</a>
+                <a href="#blog" class="modal__link" onclick="closeMenu()">Blog</a>
+                <a href="#pricing" class="modal__link" onclick="closeMenu()">Pricing</a>
+                <a href="#contact" class="modal__link" onclick="closeMenu()">Contact Us</a>
+                <a href="#login" class="modal__link" onclick="closeMenu()">Login</a>
+                <a href="#header" class="modal__link modal__link--primary" onclick="closeMenu()">Sign Up</a>
             </div>
         </div>
         <header>
@@ -82,7 +82,7 @@
             <div class="container">
                 <div class="row__narrow">
                    <h4 class="section__tag">Features</h4>
-                   <h2 class="section__title">We Have Amazing <span class="purple">Service.</span></h2>
+                   <h2 class="section__title st2">We Have Amazing <span class="purple">Service.</span></h2>
                    <div class="section__para">
                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </div>
@@ -161,7 +161,7 @@
                        <div class="section__para">
                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam cupiditate commodi qui excepturi laborum adipisci officiis, corporis possimus. Reiciendis?
                         </div>
-                        <button class="btn__learn">Learn More</button>
+                        <button class="btn learn">Learn More</button>
                     </div>
                     <figure class="quality__img--wrapper">
                         <img src="./assets/hero-screenshot-1.40a097b525c2f8c9808e.png " alt="Quality Image" class="quality__img">
@@ -233,7 +233,7 @@
                 <div class="row">
                     <div class="values__desc">
                        <h4 class="section__tag">Values</h4>
-                       <h2 class="section__title section__title--2">We Always Abide by Our <span class="purple">Principles.</span></h2>
+                       <h2 class="section__title section__title--2 vt">We Always Abide by Our <span class="purple">Principles.</span></h2>
                        <div class="section__para">
                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </div>
@@ -257,7 +257,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="btn__learn btn__value">Learn More</button>
+                        <button class="btn btn__value">Learn More</button>
                     </div>
                         <figure class="value__img">
                             <img src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg">
@@ -269,7 +269,7 @@
             <div class="container">
                 <div class="row">
                        <h4 class="section__tag">Pricing</h4>
-                       <h2 class="section__title">Resonable & Flexible <span class="purple">Plans.</span></h2>
+                       <h2 class="section__title st2">Resonable & Flexible <span class="purple">Plans.</span></h2>
                        <div class="section__para">
                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </div>
@@ -352,11 +352,11 @@
             <div class="container">
                 <div class="row">
                     <figure class="testimonals__img--wrapper">
-                        <img src="/assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="testimonials">
+                        <img src="/assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="testimonials" class="testimonals__img">
                     </figure>
                     <div class="testimonials__desc">
-                        <h4 class="section__tag">testimonials</h4>
-                       <h2 class="section__title section__title--2">Our Clients <span class="purple">Love Us.</span></h2>
+                        <h4 class="section__tag ">testimonials</h4>
+                       <h2 class="section__title section__title--2 vt">Our Clients <span class="purple">Love Us.</span></h2>
                        <div class="section__para">
                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.
                         </div>
@@ -411,7 +411,7 @@
                         <div class="start__desc">
                             <div class="start__title">Developers all over the world are happily using Treact.</div>
                             <div class="start__buttons">
-                                <button class="start__btn btn">Get Started</button>
+                                <button class="start__btn btn btn1">Get Started</button>
                                 <button class="start__btn btn">Contact Us</button>
                             </div>
                         </div>
